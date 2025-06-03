@@ -1,6 +1,6 @@
 Hello There!!!,
 
-Welcome to stitchedTogether,
+Welcome to profile manager,
 
 To run this project in your local
 
@@ -25,6 +25,4 @@ npm run build
 
 
 
-After running in your local, You will be landed onto a login page where you are asked to provide username and email.
-on successful login you will be landed into a search page where you will be able to see all available pets, from which you can 
-sort by breed or browse for more and by selecting the add to favourite you 
+After running in your local, you eill be landed into profile dashboard
