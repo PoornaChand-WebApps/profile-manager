@@ -1,54 +1,30 @@
-# React + TypeScript + Vite
+Hello There!!!,
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to stitchedTogether,
 
-Currently, two official plugins are available:
+To run this project in your local
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Pull this code from github and make sure nodejs is installed and IDE to run this code in your local machine.
+After cloning project into local, use following commands to setup & run.
 
-## Expanding the ESLint configuration
+# Project Setup
+----
+npm install / npm i
+----
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## compiles and hot reloads for development
+----
+npm run dev
+----
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### compiles and minifies for production 
+----
+npm run build
+----
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+
+After running in your local, You will be landed onto a login page where you are asked to provide username and email.
+on successful login you will be landed into a search page where you will be able to see all available pets, from which you can 
+sort by breed or browse for more and by selecting the add to favourite you 
